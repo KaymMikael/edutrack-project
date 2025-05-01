@@ -1,7 +1,23 @@
+# EduTrack
 
-# EduTrack Pseudo Code
+## About the Project
+
+### Title
+
+EduTrack: A Simple Student Record Manager
+
+### Description
+
+EduTrack allows users to add, update, delete, and search student records. It provides functionalities to store student names, IDs, and grades, ensuring easy retrieval and management of academic records.
+
+### Core Problem
+
+The core problem EduTrack addresses is the manual and disorganized handling of student records in small educational settings. Many classrooms or small institutions still rely on paper-based systems or scattered files, which can lead to lost information, difficulty in finding records, and errors in managing student details. Without a simple digital tool, tasks like updating grades or finding a specific student’s record can be time-consuming and prone to mistakes. EduTrack solves this by offering a basic, easy-to-use digital system where users can efficiently add, view, update, and manage student records—all through a console interface. It helps reduce paperwork and makes record management more consistent and accessible.
+
+## Pseudo Code
+
 <pre>
-```text START PROGRAM
+START PROGRAM
 
 IMPORT necessary components (models, manager, menu)
 
@@ -82,5 +98,5 @@ ELSE:
 DISPLAY exit message
 TERMINATE program
 
-END PROGRAM ```
+END PROGRAM
 </pre>
