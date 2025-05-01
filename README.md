@@ -1,12 +1,12 @@
-# EduTrack
+# EduTrack: A Simple Student Record Manager
 
 ## About the Project
 
-### Title
+### Project Title
 
 EduTrack: A Simple Student Record Manager
 
-### Description
+### Project Description
 
 EduTrack allows users to add, update, delete, and search student records. It provides functionalities to store student names, IDs, and grades, ensuring easy retrieval and management of academic records.
 
@@ -100,3 +100,8 @@ TERMINATE program
 
 END PROGRAM
 </pre>
+
+### Group information
+1. Altiz, Khaim Michael C.
+2. Alcaraz, Rica May G.
+3. Apritado, Allyssa Grace A.
