@@ -101,7 +101,7 @@ TERMINATE program
 END PROGRAM
 </pre>
 
-### Group information
+### Group Information
 1. Altiz, Khaim Michael C.
 2. Alcaraz, Rica May G.
 3. Apritado, Allyssa Grace A.
