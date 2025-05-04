@@ -20,7 +20,8 @@ def registerStudent():
         print("Invalid choice, please try again.")
         return
 
-    id = len(studentManager.studentsList) + 1
+    studentsTotal = len(studentManager.studentsList)
+    id = 1 if studentsTotal == 0 else studentManager.studentsList[studentsTotal - 1].id + 1
     newStudent = models.Student(id, firstName, lastName, gender, yearLevel)
     studentManager.registerStudent(newStudent)
 
