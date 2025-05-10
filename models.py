@@ -1,6 +1,3 @@
-from typing import Dict
-
-
 class Student:
     # Constructor to initialize a Student object with specific attributes
     def __init__(
@@ -39,8 +36,6 @@ class Student:
 
     # Method to calculate the average of all grades
     def calculateAverage(self):
-        if not self.grades:  # Check if grades dictionary is empty
-            return 0.0  # Return 0.0 if no grades are available
         return sum(self.grades.values()) / len(
             self.grades
         )  # Compute and return average grade
@@ -56,15 +51,15 @@ class Student:
 
     def setNewFirstName(self, newFirstName: str):
         self.firstName = newFirstName
-    
-    def setNewLastName(self, newLastName:str):
+
+    def setNewLastName(self, newLastName: str):
         self.lastName = newLastName
-    
-    def setNewGender(self, newGender:str):
+
+    def setNewGender(self, newGender: str):
         self.gender = newGender
-    
-    def setNewYearLevel(self, newYearLevel:int):
+
+    def setNewYearLevel(self, newYearLevel: int):
         self.yearLevel = newYearLevel
-    
-    def addGrade(self, subject:str, grade:float):
+
+    def addGrade(self, subject: str, grade: float):
         self.grades[subject] = grade

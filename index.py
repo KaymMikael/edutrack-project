@@ -10,16 +10,25 @@ menuActions = {
     6: exitProgram,
 }
 
+# welcome message
 print("Welcome to EduTrack")
+
 while True:
-    displayMenu()
+    displayMenu()  # Display the menu options to the user
+
+    # Prompt user for input based on the number of available choices
     messagePrompt = f"Enter your choice 1-{len(menuList)}: "
+
     try:
-        choice = int(input(messagePrompt))
-        action = menuActions.get(choice)  # Get the corresponding function
+        choice = int(input(messagePrompt))  # Get and convert user input to an integer
+        action = menuActions.get(choice)  # Retrieve the corresponding function
+
         if action:
-            action()  # Call the function
+            action()  # Execute the function
         else:
-            print("Invalid choice, please try again.")
+            print("Invalid choice, please try again.")  # Handle invalid selections
+
     except ValueError:
-        print("Invalid input type, please try again.")
+        print(
+            "Invalid input type, please try again."
+        )  # Handle cases where input isn't a number

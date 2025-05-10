@@ -66,6 +66,7 @@ class StudentManager:
         grade = float(input("Enter grade: "))
         student.addGrade(subject, grade)
 
+    # methods to update student information
     def updateStudentFirstName(self):
         id = int(input("Enter ID: "))
         student = self.getStudentById(id)
